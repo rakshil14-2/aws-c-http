@@ -59,3 +59,19 @@ To run some of the integration tests (start with localhost_integ_*), you need to
 To do that, check [localhost](./tests/mock_server/) script we have.
 
 After that, configure and build your cmake project with `-DENABLE_LOCALHOST_INTEGRATION_TESTS=true` to build the tests with localhost and run them from `ctest --output-on-failure -R localhost_integ_*`.
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| manylinux2014 | x64, x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+<!-- PLATFORM_SUPPORT_END -->
